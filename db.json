@@ -1,7 +1,7 @@
 {
     "ping": {
         "error": {
-            "code": 0,
+            "code": 200,
             "message": "string",
             "message_code": "ok"
         }
