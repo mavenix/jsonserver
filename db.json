@@ -5,7 +5,35 @@
             "message": "string",
             "message_code": "ok"
         }
+    },
+
+    "paymentsToHandle": {
+        "items": {
+            "to_handle": {
+                "list_payment": [
+                    {
+                        "AMOUNT": "number",
+                        "REFERENCE": " string ",
+                        "NIF": "string",
+                        "NAME": " string ",
+                        "DEBIT_AGENCY": " string ",
+                        "DEBIT_ACCOUNT": " string ",
+                        "CREDIT_BANK": " string ",
+                        "CREDIT_AGENCY": " string ",
+                        "CREDIT_ACCOUNT": " string ",
+                        "STATUS": " string ",
+                        "ORDER_DATE": " date "
+                    }
+                ]
+            }
+        },
+        "error": {
+            "code": 200,
+            "message": "OK",
+            "message_code": "ok"
+        }
     }
+
     ,
     "profile": {
         "name": "typicode"
