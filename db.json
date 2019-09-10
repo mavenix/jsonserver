@@ -32,9 +32,34 @@
             "message": "OK",
             "message_code": "ok"
         }
-    }
+    },
 
-    ,
+    "paymentsToProcess": {
+        "items": {
+            "to_process": {
+                "list_payment": [
+                    {
+                        "NIF": "string",
+                        "NAME": " string ",
+                        "DEBIT_ACCOUNT": " string ",
+                        "AMOUNT": "number",
+                        "REFERENCE": " string ",
+                        "CREDIT_BANK": " string ",
+                        "CREDIT_AGENCY": " string ",
+                        "CREDIT_ACCOUNT": " string ",
+                        "STATUS": " string ",
+                        "ORDER_DATE": " date "
+                    }
+                ]
+            }
+        },
+        "error": {
+            "code": 200,
+            "message": "OK",
+            "message_code": "ok"
+        }
+    },
+
     "profile": {
         "name": "typicode"
     }
